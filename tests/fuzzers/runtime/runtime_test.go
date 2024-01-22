@@ -19,7 +19,7 @@ package runtime
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/vm/runtime"
+	"github.com/bastionbaz/op-geth/core/vm/runtime"
 )
 
 func Fuzz(f *testing.F) {

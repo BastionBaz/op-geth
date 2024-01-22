@@ -19,10 +19,10 @@ package blobpool
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/rlp"
 	"github.com/holiman/billy"
 )
 

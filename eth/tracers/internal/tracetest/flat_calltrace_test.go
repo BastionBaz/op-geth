@@ -10,17 +10,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/common/hexutil"
+	"github.com/bastionbaz/op-geth/core"
+	"github.com/bastionbaz/op-geth/core/rawdb"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/core/vm"
+	"github.com/bastionbaz/op-geth/rlp"
+	"github.com/bastionbaz/op-geth/tests"
 
 	// Force-load the native, to trigger registration
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/bastionbaz/op-geth/eth/tracers"
 )
 
 // flatCallTrace is the result of a callTracerParity run.

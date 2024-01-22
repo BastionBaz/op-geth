@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/core"
+	"github.com/bastionbaz/op-geth/core/forkid"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/p2p"
+	"github.com/bastionbaz/op-geth/p2p/enode"
+	"github.com/bastionbaz/op-geth/params"
 )
 
 type testServerPeerSub struct {

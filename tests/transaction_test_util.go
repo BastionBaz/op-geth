@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/common/hexutil"
+	"github.com/bastionbaz/op-geth/core"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/params"
+	"github.com/bastionbaz/op-geth/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

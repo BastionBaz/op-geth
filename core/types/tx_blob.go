@@ -21,10 +21,10 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/crypto/kzg4844"
+	"github.com/bastionbaz/op-geth/params"
+	"github.com/bastionbaz/op-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

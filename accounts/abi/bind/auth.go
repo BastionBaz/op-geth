@@ -23,13 +23,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bastionbaz/op-geth/accounts"
+	"github.com/bastionbaz/op-geth/accounts/external"
+	"github.com/bastionbaz/op-geth/accounts/keystore"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/crypto"
+	"github.com/bastionbaz/op-geth/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

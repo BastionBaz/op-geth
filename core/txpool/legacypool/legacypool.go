@@ -26,17 +26,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/common/prque"
+	"github.com/bastionbaz/op-geth/consensus/misc/eip1559"
+	"github.com/bastionbaz/op-geth/core"
+	"github.com/bastionbaz/op-geth/core/state"
+	"github.com/bastionbaz/op-geth/core/txpool"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/event"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/metrics"
+	"github.com/bastionbaz/op-geth/params"
 )
 
 const (

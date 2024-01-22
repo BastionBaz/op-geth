@@ -34,12 +34,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/reexec"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bastionbaz/op-geth/internal/reexec"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/node"
+	"github.com/bastionbaz/op-geth/p2p"
+	"github.com/bastionbaz/op-geth/p2p/enode"
+	"github.com/bastionbaz/op-geth/rpc"
 	"github.com/gorilla/websocket"
 )
 

@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bastionbaz/op-geth/common/hexutil"
+	"github.com/bastionbaz/op-geth/console/prompt"
+	"github.com/bastionbaz/op-geth/internal/ethapi"
+	"github.com/bastionbaz/op-geth/log"
 )
 
 type CommandlineUI struct {

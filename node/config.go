@@ -25,11 +25,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/crypto"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/p2p"
+	"github.com/bastionbaz/op-geth/rpc"
 )
 
 const (

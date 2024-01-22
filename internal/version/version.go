@@ -23,7 +23,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bastionbaz/op-geth/params"
 )
 
 const ourPath = "github.com/ethereum/go-ethereum" // Path to our module

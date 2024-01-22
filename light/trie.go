@@ -21,15 +21,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/core/rawdb"
+	"github.com/bastionbaz/op-geth/core/state"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/crypto"
+	"github.com/bastionbaz/op-geth/ethdb"
+	"github.com/bastionbaz/op-geth/rlp"
+	"github.com/bastionbaz/op-geth/trie"
+	"github.com/bastionbaz/op-geth/trie/trienode"
 )
 
 var (

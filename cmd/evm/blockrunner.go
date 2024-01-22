@@ -24,10 +24,10 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/bastionbaz/op-geth/core/rawdb"
+	"github.com/bastionbaz/op-geth/core/vm"
+	"github.com/bastionbaz/op-geth/eth/tracers/logger"
+	"github.com/bastionbaz/op-geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

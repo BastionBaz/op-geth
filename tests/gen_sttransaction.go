@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/common/hexutil"
+	"github.com/bastionbaz/op-geth/common/math"
+	"github.com/bastionbaz/op-geth/core/types"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

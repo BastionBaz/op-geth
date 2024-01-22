@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/ethdb"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/params"
 )
 
 const (

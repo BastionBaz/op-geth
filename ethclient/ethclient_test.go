@@ -28,20 +28,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/bastionbaz/op-geth/common/hexutil"
+	"github.com/bastionbaz/op-geth/internal/ethapi"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bastionbaz/op-geth"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/consensus/ethash"
+	"github.com/bastionbaz/op-geth/core"
+	"github.com/bastionbaz/op-geth/core/types"
+	"github.com/bastionbaz/op-geth/crypto"
+	"github.com/bastionbaz/op-geth/eth"
+	"github.com/bastionbaz/op-geth/eth/ethconfig"
+	"github.com/bastionbaz/op-geth/node"
+	"github.com/bastionbaz/op-geth/params"
+	"github.com/bastionbaz/op-geth/rpc"
 )
 
 // Verify that Client implements the ethereum interfaces.

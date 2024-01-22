@@ -24,15 +24,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bastionbaz/op-geth/common/mclock"
+	"github.com/bastionbaz/op-geth/ethdb"
+	"github.com/bastionbaz/op-geth/les/utils"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/metrics"
+	"github.com/bastionbaz/op-geth/p2p/enode"
+	"github.com/bastionbaz/op-geth/p2p/enr"
+	"github.com/bastionbaz/op-geth/p2p/nodestate"
+	"github.com/bastionbaz/op-geth/rlp"
 )
 
 const (

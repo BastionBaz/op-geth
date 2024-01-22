@@ -19,13 +19,13 @@ package trie
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/ethdb"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/trie/triedb/hashdb"
+	"github.com/bastionbaz/op-geth/trie/triedb/pathdb"
+	"github.com/bastionbaz/op-geth/trie/trienode"
+	"github.com/bastionbaz/op-geth/trie/triestate"
 )
 
 // Config defines all necessary options for database.

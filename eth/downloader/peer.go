@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/bastionbaz/op-geth/common"
+	"github.com/bastionbaz/op-geth/eth/protocols/eth"
+	"github.com/bastionbaz/op-geth/event"
+	"github.com/bastionbaz/op-geth/log"
+	"github.com/bastionbaz/op-geth/p2p/msgrate"
 )
 
 const (
